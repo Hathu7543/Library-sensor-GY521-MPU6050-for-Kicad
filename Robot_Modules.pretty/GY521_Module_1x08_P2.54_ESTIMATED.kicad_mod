@@ -1,0 +1,272 @@
+(footprint "GY521_Module_1x08_P2.54_ESTIMATED"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "DRAFT GY-521: assumed 20.3x15.6mm outline, 2.54mm pitch; verify against actual module. Mount holes shown on Fab only.")
+	(property "Reference" "U1"
+		(at 8.89 -3 0)
+		(layer "F.SilkS")
+		(uuid "c36f859b-2c48-4b21-8dd5-a9dea488df60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GY521_MPU6050"
+		(at 8.89 16.5 0)
+		(layer "F.Fab")
+		(uuid "a650284c-f7b0-4718-bf1a-133260041d3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f92110a-4799-4a53-8625-407b31c235f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48975fd0-c79d-4945-be73-541e9e43c950")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.26 -1.27)
+		(end 19.04 14.33)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3ef64ec8-d9ea-4191-ac2e-0e67a24f6ad2")
+	)
+	(fp_rect
+		(start -1.76 -1.77)
+		(end 19.54 14.83)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6c62c7a7-b514-4d53-b447-e9b079be22c4")
+	)
+	(fp_rect
+		(start -1.26 -1.27)
+		(end 19.04 14.33)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "597c0b63-86a3-4a4f-be55-d8c26ddbbe8c")
+	)
+	(fp_circle
+		(center 1.24 11.83)
+		(end 2.74 11.83)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fe558d91-9959-4472-9bfe-1e613f465ae3")
+	)
+	(fp_circle
+		(center 16.54 11.83)
+		(end 18.04 11.83)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2dfec469-28a8-4adb-b00b-c1f9868cfbdd")
+	)
+	(fp_text user "INT"
+		(at 0 2.8 90)
+		(layer "F.SilkS")
+		(uuid "f28230df-0c12-4175-b0d5-835486925f74")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "AD0"
+		(at 2.54 2.8 90)
+		(layer "F.SilkS")
+		(uuid "128b183d-3892-4510-aa1c-7fa5bd17f2ea")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "XCL"
+		(at 5.08 2.8 90)
+		(layer "F.SilkS")
+		(uuid "7d263c86-27ab-4b78-bb9a-259d4ba5fb0d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "XDA"
+		(at 7.62 2.8 90)
+		(layer "F.SilkS")
+		(uuid "03aa11e1-794f-4cbd-a8af-502ced3e0959")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "SDA"
+		(at 10.16 2.8 90)
+		(layer "F.SilkS")
+		(uuid "357fdba1-ae4a-4c62-b34e-12fe8c1f7cb6")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "SCL"
+		(at 12.7 2.8 90)
+		(layer "F.SilkS")
+		(uuid "c41cd6bf-5c9d-4f40-990c-9842c55b407d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at 15.24 2.8 90)
+		(layer "F.SilkS")
+		(uuid "d60e61f9-ff56-475e-9bb8-d8c6ef8ee54d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "VCC"
+		(at 17.78 2.8 90)
+		(layer "F.SilkS")
+		(uuid "de0747a2-1149-4c08-a01c-2347dd402c93")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 17.78 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "52af20b9-5cce-4abe-b0ba-15c0064b0a32")
+	)
+	(pad "2" thru_hole circle
+		(at 15.24 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "07552559-a514-4314-8db0-755a0292173f")
+	)
+	(pad "3" thru_hole circle
+		(at 12.7 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d0089f6-0b78-424e-b332-ad9cb41eb9b0")
+	)
+	(pad "4" thru_hole circle
+		(at 10.16 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3b5b6c55-b197-4eb3-9e9e-1f712ec73408")
+	)
+	(pad "5" thru_hole circle
+		(at 7.62 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f5a3294b-5a06-4cf5-ba88-3aa30f6b9040")
+	)
+	(pad "6" thru_hole circle
+		(at 5.08 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc3ce22e-e811-4cfa-88a0-dc2a017485a4")
+	)
+	(pad "7" thru_hole circle
+		(at 2.54 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c036bc81-38cf-4ed1-bef4-35754f91801c")
+	)
+	(pad "8" thru_hole oval
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bb263289-d037-4a5d-a743-caa6cfdacd83")
+	)
+	(embedded_fonts no)
+	(model "D:/Hoc/Đồ án tôt nghiệp/thuvien/Robot_Modules.3dshapes/GY521_Module_SIMPLIFIED.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
